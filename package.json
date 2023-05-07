@@ -1,0 +1,16 @@
+{
+  "name": "ts-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SpaceSample/TsCLI.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf target/*; npx tsc; node target/index.js",
+    "build": "rm -rf target/*; npx tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
+  }
+}
